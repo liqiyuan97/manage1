@@ -124,7 +124,7 @@
 		  			</div>
 	  			</div>
 			</div>
-			<div class="tab-panel" id="tab-2">
+			<div class="tab-panel clearfix" id="tab-2">
 				<div class="tab2"></div>
 				<form class="form-2">
 	        <div class="form-group">
@@ -136,16 +136,26 @@
 	          </div>
 	        </div>
 	      </form>
-				<h3>查看消费情况</h3>
-				<div class="tab2-title clearfix">
-					<div class="tab2-title-left pull-left">总消费</div>
-					<div class="tab2-title-right pull-right">-00.00</div>
-					<div></div>
+	      <div class="pull-left" style="width: 50%;">
+					<h3>查看消费情况</h3>
+					<div class="tab2-title clearfix">
+						<div class="tab2-title-left pull-left">总消费</div>
+						<div class="tab2-title-right pull-right">-00.00</div>
+						<div></div>
+					</div>
+					<div style="width: 55%">
+	  				<canvas id="myChart"></canvas>
+					</div>
 				</div>
-				<h4>代付消费情况</h4>
-				<div class="tab2-title clearfix">
-					<div class="tab2-title-left pull-left">须向 <span class="daifu">xxx</span> 支付</div>
-					<div class="tab2-title-right pull-right">-00.00</div>
+				<div class="pull-left" style="width: 50%">
+					<h4>代付消费情况</h4>
+					<div class="tab2-title clearfix">
+						<div class="tab2-title-left pull-left">须向 <span class="daifu">xxx</span> 支付</div>
+						<div class="tab2-title-right pull-right">-00.00</div>
+					</div>
+					<div style="width: 55%">
+	  				<canvas id="myChart2"></canvas>
+					</div>
 				</div>
 			</div>
 			<div class="tab-panel" id="tab-3">
@@ -159,15 +169,9 @@
 	</div>
 </div>
 
-<canvas id="myChart" width="400" height="450"></canvas>
-
-
-
 
 	<script src="../jquery-3.1.1.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
-	<script src="Chart.js"></script>  
-	<script src="../Chart.js-master/src/chart.js"></script>
+	<script type="text/javascript" src="../Chart.js"></script>
 	<script type="text/javascript" src="../js/manage.js"></script>
 	<script type="text/javascript" src="../js/graph.js"></script>
 </body>

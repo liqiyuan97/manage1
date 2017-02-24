@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+<script type="text/javascript">
+  function li(){
+    document.getElementById("a1").value = parseInt(Math.random()*100)
+    document.getElementById("a2").value = parseInt(Math.random()*100)
+               }
+  
+  function qi(){
+    var c=document.getElementById("a3").value
+    if (c ==="")
+    {
+      return false
+    }else{
+      return true
+         }  
+              }
+
+  function yuan()
+  {
+    var a=document.getElementById("a1").value
+    var b=document.getElementById("a2").value
+    var c=document.getElementById("a3").value
+    if (qi()) {
+      if (parseInt(a) + parseInt(b)===parseInt(c))
+      {
+      alert("结果正确")
+      }
+      else{
+      alert("结果错误")
+          }
+              }
+  }   
+</script>
+</head>
+<body onload="li()">
+  <h1>随机数字</h1>
+  <form>
+      <input type="number" id="a1">+
+      <input type="number" id="a2">=
+      <input type="number" id="a3">
+      <input type="submit" value="结果" onclick="yuan()">  
+  </form>  
+</body>
+</html>

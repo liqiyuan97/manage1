@@ -1,0 +1,308 @@
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix{
+	*zoom: 1;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	font: 12px "宋体", Arial, Helvetica, sans-serif;
+}
+
+.header {
+	margin: auto;
+	height: 60px;
+	width: 1000px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logo{
+	width: 260px;  
+	height: 60px; 
+	background-image: url(http://pic.58pic.com/58pic/12/07/72/90t58PICvCj.jpg); 
+	background-repeat: no-repeat;
+    background-size: 260px 60px;   
+    position: relative;
+    float: left;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.navbar{
+	position: relative;
+	float: right;
+	margin: 20px;
+}
+
+.navbar a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	margin-right: 10px;
+}
+
+.navbar .active {
+	color: red;
+}
+
+.banner{
+	height: 265px;
+	background-image: url(http://www.ichotelsgroup.com/hotelmedia/repository/concierge/TPAHA/5620/5624/5624-full.jpg);
+	background-repeat:;
+	width: 100%;
+}
+
+
+.banner p{
+	color: #756F71;
+	font-size: 14px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8), 2px 2px 3px rgba(180, 151, 151, 0.3);
+	line-height: 26px;
+}
+
+
+
+
+.banner_content{
+	width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.banner .banner_content .area {
+	position: relative;
+	float: left;
+  	margin: 60px;
+}
+
+.banner .banner_content .avator{
+	background-image: url(http://cdn.duitang.com/uploads/item/201403/18/20140318161818_QaVEj.thumb.700_0.jpeg);
+	background-size:130px 130px ;
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	float: right;
+	margin-top: 50px;
+	border: #fff 4px solid;
+	
+}
+
+.template{
+	background-color: #F1F0EE;
+}
+
+.content{
+	width: 1000px;
+	height: 205px;
+	margin: auto;
+}
+
+.title {
+	font-size: 14px;
+	border-bottom: #FFF 1px solid;
+	font-family: "微软雅黑";
+	margin: 0px;
+	padding-top: 10px;
+}
+
+.title p{
+	margin: 0px;
+	background-color: #474645;
+	width:180px;
+	color: #fff;
+	box-shadow: #999 4px 5px 1px;
+}
+
+.title p span {
+	color: #38b3d4;
+}
+
+.img_area .img {
+	float: left;
+	margin-right: 10px;
+}
+
+.img_area img{
+	box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+	padding: 2px;
+	margin-top: 20px;
+	width: 179px;
+	height: 110px;
+}
+
+.article{
+	width: 1000px;
+	margin: auto;
+
+}
+
+.article .article_title{
+	color: #FE5187;
+	font-size: 18px;
+	background:url(http://img.bimg.126.net/photo/N0DpLLJy5mHOTUMRTb_3Jg==/637822297227866083.jpg);
+	background-size: 10px 15px;
+}
+
+.article .article_title  p{
+	width: 90px;
+	background: #fff;
+}
+
+
+.article .booklist_body{
+	width: 740px;
+	position: relative;
+	float: left;
+	background: url(/CSS/fgx.png)repeat-y center;
+	background-position: right;
+}
+
+.article .booklist{
+	background-size: 10px 15px;
+	position: relative;
+
+
+}
+
+.article .booklist .figure{
+	float: left;
+	width: 183px;
+	position: relative;
+}
+
+.article .booklist .figure img{
+	padding: 4px;
+	border: #FFFFFF 1px solid;
+	width: 175px;
+}
+
+.booklist .introduce{
+	width: 520px;
+	float: left;
+	margin: 10px 10px 0 0px;
+	position: relative;
+}
+
+.booklist .introduce p{
+	color: #756F71;
+}
+
+.article .booklist .button{
+	background-color: #fd8a61;
+	color: #fff;
+	padding: 5px 10px;
+	float: right;
+	margin: 20px 0 0 0;
+	position: relative;
+
+}
+
+.booklist .signature{
+	width: 695px;
+	background-color: #eeeeee;
+	line-height: 26px;
+	padding-left: 25px;
+	float: left;
+	position: relative;
+}
+
+.booklist .signature span{
+	margin: 0 10px;
+}
+
+.booklist h4{
+	margin: 20px 0 10px 0;
+}
+
+
+
+.right{
+	position: relative;
+	float: right;
+}
+
+.article .right .weather{
+	width: 250px;
+	height: 88px;
+	background-image: url(http://www.7cgcg.com/uploads/image/20150430/1430342073.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px 88px;
+
+}
+
+.news h4{
+	font-size: 14px;
+	background: url(http://img.article.pchome.net/00/34/03/96/pic_lib/s960x639/hr-jehzeel-laurente-2s960x639.jpg)repeat-x center;
+	background-size: 250px 16px;
+}
+
+.news h4 p{
+	width: 70px;
+	color: #65b020;
+	background: #fff;
+}
+
+
+.rank_1 li{
+	line-height: 22px;
+	border-bottom: #CCC dotted 1px;
+}
+
+.rank_1 li a{
+	color: #333;
+}
+
+.rank li{
+	line-height: 22px;
+
+}
+
+.rank li a{
+	color: #333;
+
+}
+
+.download a{
+	color: #333;
+	margin: auto;
+}
+
+.news .download{
+	text-align: center;
+	background: #F3F3F3;
+	border-radius: 60%;
+}
+
+.news .erweima{
+	background: url(http://h.hiphotos.baidu.com/image/pic/item/3bf33a87e950352a5936aa0a5543fbf2b2118b59.jpg) no-repeat;
+	background-size: 250px 250px;
+	height: 274px;
+	width: 100%;	
+
+}
+
+.news .paragraph span{
+	color: #65B020;
+	font-size: 14px;
+}
+
+
+.footer{
+	margin: auto;
+	text-align: center;
+	margin-top: 100px;
+	border-top: #E8E8E8 1px solid;
+}

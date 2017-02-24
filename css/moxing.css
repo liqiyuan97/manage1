@@ -1,0 +1,38 @@
+body{
+  background-color: #f6f6f6;
+  color: #f6f6f6;
+}
+
+.area{
+  width: 373px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #fff;
+}
+
+.area2{
+  padding: 18px;
+}
+
+.left{
+  width: 60%;
+  background: url(http://img01.taopic.com/160316/240471-16031609211131.jpg);
+  background-size: 210px 150px;
+  height: 150px;
+}
+
+.right{
+  padding-top: 20px;
+  width: 40%;
+  height: 150px;
+  background-color: #303030;
+  text-align: center;
+}
+
+.text{
+  font-size: 30px;
+}
+
+.text2{
+  margin-top: -6px;
+}

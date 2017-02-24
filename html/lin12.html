@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function displaydate(){
+			var a = document.getElementById("ww").value
+		if(a ===""){
+			alert("输入框不能为空!")
+		}else if(isNaN(a)){
+			alert("不是数字")
+		}else{
+			alert("是数字")
+		}
+		}
+	</script>
+	
+</head>
+<body>
+  <h1>我的第一段JS</h1>
+  <p>请输出数字,如果输入值不是数字,浏览器会弹出提示框.</p>
+   <input type="text" id="ww">
+<button type="button" onclick="displaydate()">点击这里</button>
+
+    
+</body>
+</html>

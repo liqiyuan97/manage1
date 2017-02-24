@@ -1,0 +1,83 @@
+@media only screen and (max-width: 800px) {
+  body{
+    width: 100%
+  }
+  a{
+    color:green;
+  }
+}
+
+html{
+  background-color: #f6f6f6;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 1170px;
+  color: black;
+  margin: auto;
+  background-color: #f6f6f6;
+}
+
+a{
+  color: #C9C9C9;
+}
+
+.title{
+  position: relative;
+  line-height: 29px;
+  height: 30px;
+  background-color: #333333;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.title_right{
+  position: relative;
+  right: 50px;
+}
+
+.bnner-area{
+  width: 40%;
+  padding-bottom: 50px;
+  box-shadow: 1px 1px 5px 1px #888888;
+  position: relative;
+  margin-left: 6%;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.bnner_3{
+  margin-top: 2%;
+}
+
+.bnner_4{
+  margin-top: 2%;
+}
+
+.bnner{
+  padding-top: 50px;
+  position: relative;
+  padding-bottom: 50px;
+  background-color: #D3D3D3;
+}
+
+.bnner-area img{
+  max-width: 20%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.rank img{
+  max-width: 100%;
+}
+
+.video{
+  background-color: black;
+  position: relative;
+}
+
+video{
+  position: relative;
+  left: 26%;
+  max-width: 60%;
+}

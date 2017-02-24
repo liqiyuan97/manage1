@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function qiyuan(){
+			var a=document.getElementById('li').value
+			var b=document.getElementById('li1').value
+			if (a<b) {
+				alert("你猜的大了")
+			}else if (a===b) {
+				alert("恭喜你猜对了")
+			}else if (a>b) {
+				alert("你猜的小了")
+			}
+		}
+	</script>
+</head>
+<body>
+<form onsubmit="qiyuan()">
+<table>
+          <h1>猜数字</h1>
+  <tr>
+        <td>谜底:</td>
+        <td><input type="password" id="li"></td>
+  </tr>
+  <tr>
+  	    <td>输入:</td>
+  	    <td><input type="number" id="li1"></td>
+  </tr>
+  <tr>
+  	    <td></td>
+  	    <td><input type="submit" ></td>
+  </tr>
+</table>
+</form>
+
+</body>
+</html>

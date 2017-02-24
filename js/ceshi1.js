@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $(".uuu").mouseenter(function(){
+    $(".overflow4").css("display","block");
+    $(".overflow4").animte({height:"170px"},2000);
+  });
+  $(".onclick").click(function(){
+    $(".overflow4").css("display","none")
+  })
+})

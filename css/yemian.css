@@ -1,0 +1,129 @@
+body{
+	color: #fff;
+}
+
+.header{
+	width: 100%;
+	background-color: black;
+}
+
+.navbar{
+	width: 90%;
+	margin: auto;
+	padding: 7px;
+}
+
+.dropdown .area_1{
+	width: 10px;
+	height: 10px;
+	padding: 5px;
+	background-color: green;
+	border-radius: 35%;
+	margin-right: 30px;
+}
+
+.navbar a{
+	line-height: 2;
+	color: #fff;
+}
+
+.content{
+	width: 90%;
+	height: 1600px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.introduce{
+	width: 83%;
+	height: 1600px;
+}
+
+.introduce .area_2{
+	width: 83%;
+	background-color: black;
+	height: 44px;
+	border-radius: 2%;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.banner{
+	margin-top: 15px;
+}
+
+.banner div{
+	color: black;
+	background-color: #eeeeee;
+	width: 120px;
+	height: 60px;
+	margin-right: 40px;
+	border-radius: 10%;
+	line-height: 30px;
+}
+
+.banner div a{
+	margin: auto;
+}
+
+.introduce_1{
+	width: 83%;
+	height: 44px;
+	background-color: black;
+	margin-top: 20px;
+	border-radius: 2%;
+	padding-top: 10px;
+	padding-left: 5px;
+
+}
+
+.figure{
+	width: 83%;
+	background:url(http://wijmo.gcpowertools.com.cn/files/img/linechart_area.png) no-repeat;
+	height: 465px;
+	background-size: 100% 465px;
+}
+
+.booklist .aaa{
+	width: 60px;
+	height: 60px;
+	background:url(http://tupian.qqjay.com/tou3/2016/0726/056f45f610c7f0166c81039e7a378012.jpg) no-repeat;
+	background-size: 60px 60px;
+}
+
+
+.booklist{
+	width: 14%;
+}
+
+.dd{
+	margin-left: 20px;
+}
+
+.jiacu{
+	font-weight: 600;
+	color: black;
+}
+
+.ss{
+	color: #756F71;
+}
+
+.ll{
+	width: 100%;
+	height: 150px;
+}
+
+.eee button{
+	padding-right: 144px;
+}
+
+.banner .pull-left{
+	padding-left: 44px;
+}
+
+@media only screen and (max-width: 480px;){
+	body{
+		width: 1600px;
+	}
+}

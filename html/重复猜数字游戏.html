@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>猜数字游戏</title>
+	<script type="text/javascript">
+		function qiyuan(){
+			var a=document.getElementById('ll').value
+			var b=document.getElementById('ww').value
+			if (a<b) {
+				alert("你猜的大了")
+			}else if (a===b) {
+				alert("恭喜你猜对了")
+			}else if (a>b) {
+				alert("你猜的小了")
+			}
+		}
+	</script>
+</head>
+<body>
+      <table >
+     	    <tbody>
+     	    	 <h1>猜数字</h1>
+     	    	 <tr>
+     	    	 	<td>谜底:</td>
+     	    	 	<td><input type="password" id="ll"></td>
+     	    	 </tr>
+     	    	 <tr>
+     	    	 	<td>答案:</td>
+     	    	 	<td><input type="number" id="ww"></td>
+     	    	 </tr>
+     	    	 <tr>
+     	    	    <td></td>
+     	    	 	<td><input type="submit" onclick="qiyuan()"></td>
+     	    	 </tr>
+     	    </tbody>
+     	 </table>
+</body>
+</html>

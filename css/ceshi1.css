@@ -1,0 +1,47 @@
+a{
+  color: #756F71;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.service_entry{
+  width: 190px;
+  position: relative;
+  overflow: hidden;
+}
+
+.J_tab_head{
+  width: 192px;
+  height: 210px;
+  overflow: hidden;
+  list-style:none;
+  margin-left: -1px;
+  position: relative;
+}
+
+.service_item{
+  float: left;
+  width: 47px;
+  height: 69px;
+  border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.service_item p{
+  margin-bottom: -2px;
+}
+
+
+.overflow4{
+  width: 190px;
+  background-color: green;
+  height: 170px;
+  position: absolute;
+  bottom: 0;
+  display: none;
+}

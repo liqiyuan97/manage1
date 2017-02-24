@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+	             function qiyuan(){
+	           var e1= document.getElementById('li').value
+               var e2 = document.getElementById("li1").value
+                document.getElementById('li2').value=parseInt(e1)+parseInt(e2)
+                if (e1===""||e2==="") {
+                	alert("为空")
+                	
+                }else{
+                
+                }
+  }
+	</script>
+</head>
+<body>
+   <form onsubmit="qiyuan()">
+   	    <table>
+   	    	  <input type="number" id="li">+
+   	    	  <input type="number" id="li1">=
+   	    	  <input type="number" id="li2" readonly="true">
+   	    	  <input type="button" value="结果" onclick="qiyuan()"> 
+
+   	    </table>
+   </form>
+
+</body>
+</html>

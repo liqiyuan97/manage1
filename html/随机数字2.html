@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>随机数字</title>
+	<script type="text/javascript">
+		function shuzi(){
+			document.getElementById('aa').value=parseint(Math.random()*100)
+			document.getElementById('bb').value=parseint(Math.random()*100)
+}
+       function panduan(){
+       	    var c=document.getElementById('cc').value
+       	    if (c==="") {
+       	    	return false
+       	    }else{
+       	    	return true
+       	    }
+       }
+       function jisuan(){
+       	    var a=document.getElementById('aa').value
+       	    var b=document.getElementById('bb').value
+       	    var c=document.getElementById('cc').value
+       	    if (panduan()) {
+       	    	if (parseInt(a) + parseInt(b)===parseInt(c)) {
+       	    	alert("正确")
+       	    	}
+       	    	else
+       	    	{
+       	    	alert("错误")
+       	    	}
+       	    }
+       }
+	</script>
+</head>
+<body onload="shuzi">
+  <h1>随机数字</h1>
+  <input type="number" id="aa">+
+  <input type="number" id="bb">=
+  <input type="number" id="cc">
+  <input type="button" value="结果" onclick="jisuan()">
+</body>
+</html>

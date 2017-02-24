@@ -1,0 +1,302 @@
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	border-radius: 0px;
+}
+
+.navbar .area{
+	width: 1265px;
+	margin: auto;
+
+}
+
+.logo{
+	width: 10%;
+	height: 50PX;
+	background:url(http://asset1.eggman.tv/assets/logo_2-2bdc0b6501155f3fff0f3c63e33b424b24941bcfbbf9b027be22aa40c90696cc.png);
+	background-size: 100% 100%;
+}
+
+.navbar .title{
+	margin-top: 18px;
+}
+
+.navbar .aaa{
+	margin-left: 25px;
+
+}
+
+.navbar .active{
+	background-color: #5fcf80;
+	border-color: #5fcf80;
+}
+
+.navbar .rank{
+	margin-top: 10px;
+}
+
+.banner{
+	width: 100%;
+	height: 450px;
+	background-color: #5fcf80;
+}
+
+.banner .www{
+	height: 132px;
+}
+
+.banner .area{
+	width: 1108px;
+	margin: auto;
+}
+
+.banner .introduce{
+	width: 44%;
+}
+
+
+.banner .email{
+	width: 45%;
+	height: 260px;
+	background-color: #FFFFFF;
+	border-radius: 2%;
+}
+
+.banner .email p{
+	background-color: #999999;
+	height: 43px;
+	padding-top: 11px;
+	padding-left: 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.password{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.qqq{
+	margin-left: 35px;
+}
+
+.email input{
+	height: 40px;
+}
+
+.email .rank{
+	width: 90%;
+	margin: auto;
+}
+
+.content{
+	width: 1000px;
+	height: 550px;
+	margin: auto;
+}
+
+.content .template{
+	width: 500px;
+	margin-top: 52px;
+	height: 210px;
+	background-color: #5fcf80;
+	border-radius: 6px;
+}
+
+.template .rank{
+	width: 200px;
+	height: 200px;
+	background:url(http://asset5.eggman.tv/assets/course_icon-a988d481d1948b152bd0514fee84c8f3d3ca75e20fcfe7aa36eebe1b7c217b0b.png) no-repeat;
+	background-size: 200px 200px;
+	margin: auto;
+}
+
+.content .template_1{
+	width: 500px;
+	height: 250px;
+	margin-top: 52px;
+}
+
+.template_1 .rank_1{
+	margin: 50px;
+}
+
+.content .template_2{
+	width: 50%;
+	height: 250px;
+}
+
+.template_2 .rank_2{
+	margin: 50px;
+}
+
+.content .template_3{
+	width: 50%;
+	height: 210px;
+	background-color: #CC9999;
+	border-radius: 6px;
+}
+
+.template_3 .rank_3{
+	width: 200px;
+	height: 200px;
+	background:url(http://asset5.eggman.tv/assets/course_icon-a988d481d1948b152bd0514fee84c8f3d3ca75e20fcfe7aa36eebe1b7c217b0b.png) no-repeat;
+	background-size: 200px 200px;
+	margin: auto;
+}
+
+.curriculum{
+	width: 57%;
+	height: 250px;
+	margin: auto;
+}
+
+
+.curriculum .area{
+	height: 150px;
+}
+
+.curriculum .rank p{
+	text-align: center;
+}
+
+.yyy{
+	text-align: center;
+}
+
+.curriculum .rank{
+	margin-top: 50px;
+}
+
+.video{
+	width: 100%;
+	height: 640px;
+	background-color: #CCCCCC;
+}
+
+.video .kkk{
+	height: 100px;
+}
+
+.video .area{
+	width: 750px;
+	height: 460px;
+	background-color: #fff;
+	margin: auto;
+	border-radius: 6px;
+}
+
+.video .introduce{
+	background-color: #5fcf80;
+	height: 34px;
+	padding-top: 9px;
+	padding-left: 9px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.rank_9{
+  width: 100%;
+  height: 100%;
+  background-color: #5fcf80;
+  padding: 100px 100px;
+}
+
+.area_9{
+  width: 700px;
+  height: 320px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 8px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+  line-height: 30px;
+}
+
+.area_9 .btn-success{
+  margin-top: 30px;
+}
+
+.signature{
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #D1D1D1;
+}
+
+.signature .area{
+	text-align: center;
+	height: 200px;
+	padding-top: 63px;
+	position: relative;
+}
+
+.signature .area a{
+	padding-left: 16px;
+}
+
+
+
+.footer {
+	text-align: center;
+  height: 50px;
+}
+
+.shipin{
+	width: 100%;
+	height: 100%;
+	background: url(http://img.k68.cn/k68over2007-10-15/68086/k68_cn_2007112111743_01.jpg) no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.weixin {
+	margin-top: 20px;
+}
+
+.weixin .fa{
+	background-color: #CCCCCC;
+	padding: 4px 55px;
+	border-radius: 10px;
+}
+
+.navbar .title .zzz{
+	width: 0px;
+	border-radius: 20px;
+	border: 1px solid #7b8b8e;
+	padding: 5px 12px;
+	margin-top: -7px;
+	visibility: hidden;
+}
+
+.zza{
+	position: absolute;
+}
+
+.uuu{
+	margin-left: 32px;
+	position: relative;
+}
+
+
+
+.jjj{
+	left:790px;
+}
+
+
+.huiding{
+	width: 15px;
+	height: 15px;
+	position: fixed;
+	margin-left: 1240px;
+	margin-top: 200px;
+}
+
+.erweima{
+	position: absolute;
+	margin-top: -135px;
+	margin-left: 66px;
+	visibility: hidden;
+}

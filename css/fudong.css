@@ -1,0 +1,21 @@
+.session{
+	background-color: green;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix{
+	*zoom: 1;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function qiyuan(){
+			var a=document.getElementById('li').value
+			var b=document.getElementById('li1').value
+			if (a===b&&b===a) {
+				alert("输入一致")
+			}else{
+				alert("输入不一致")
+			}
+		}
+	</script>
+</head>
+<body>
+  <form onsubmit="qiyuan()">
+  	  <table>
+  	  	 <input type="text" id="li">
+  	  	 <input type="text" id="li1">
+  	  	 <button type="submit">提交</button>
+  	  </table>
+  </form>
+
+</body>
+</html>

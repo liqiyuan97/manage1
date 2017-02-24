@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function qiyuan(){
+			var a=document.getElementById('li').value
+			if (a==="") {
+				alert("不能为空")
+			}else if (isNaN(a)) {
+				alert("不是数字")
+			}
+			else{
+				alert("是数字")
+			}
+		}
+	</script>
+</head>
+<body>
+  <input type="text" id="li">
+  <button type="button" onclick="qiyuan()">点击</button>
+</body>
+</html>

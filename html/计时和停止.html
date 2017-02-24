@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		var c=0
+        var a
+        function jishi(){
+            document.getElementById('a1').value=c
+            c=c+1
+            a=setTimeout("jishi()",1000)
+        }
+
+        function tingzhi(){
+            clearTimeout(a)
+        }
+</script>
+</head>
+<body>
+    <div style="width:220px; height:80px; background-color:#FFC0CB;">
+        <input type="submit" value="开始计时" onclick="jishi()">
+    	<input type="submit" value="停止" onclick="tingzhi()">
+    	<input type="text" id="a1">
+    	<P>计时器(秒)</P>
+    </div>
+</body>
+</html>

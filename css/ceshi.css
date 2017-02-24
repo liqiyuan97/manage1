@@ -1,0 +1,88 @@
+body{
+  background-color: #eeeeee;
+}
+.area{
+  margin: auto;
+  width: 790px;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 30px;
+}
+
+.a{
+  width: 790px;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+}
+
+.a1{
+  width: 790px;
+  height: 340px;
+  background: url(http://4493bz.1985t.com/uploads/allimg/160504/5-160504153422.jpg) no-repeat;
+  background-size: 790px 340px;
+}
+
+.a2{
+  width: 790px;
+  height: 340px;
+  background: url(http://image5.tuku.cn/pic/wallpaper/qiche/chijiemingpaochebizhi/013.jpg) no-repeat;
+  background-size: 790px 340px;
+}
+
+.a3{
+  width: 790px;
+  height: 340px;
+  background: url(/tp/3.jpg) no-repeat;
+  background-size: 790px 340px;
+}
+
+.a4{
+  width: 790px;
+  height: 340px;
+  background: url(http://image.tianjimedia.com/uploadImages/2012/009/HMWW7WPSZKXT.jpg) no-repeat;
+  background-size: 790px 340px;
+}
+
+.area1{
+  position: absolute;
+  background-color: hsla(0,0%,100%,.3);
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  z-index: +6;
+  top: 310px;
+  left: 337px;
+  opacity: 0.5;
+  padding-left: 10px;
+}
+
+.b{
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  float: left;
+  margin-top: 3px;
+  margin-left: 4px;
+  opacity: 1;
+}
+
+.c{
+  position: absolute;
+}
+
+/*.d{
+  opacity: 0;
+}*/
+
+.font-color1{
+  background-color: #db192a;
+}
+
+
+.d{
+  opacity: 0;
+}
+

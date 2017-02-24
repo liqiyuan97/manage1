@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>登录页面</title>
+	<script type="text/javascript">
+	   function qiyuan(){
+	   	var a=document.getElementById('li').value
+	   	var b=document.getElementById('li1').value
+	   	if (a===""||b==="") {
+	   		alert("账号或密码不能为空")
+	   		return false
+	   	}else{
+	   	   return true
+	   	}
+	   }
+		
+	</script>
+</head>
+<body>
+<form action="lin10.html" onsubmit="return qiyuan()">
+   <table>
+     <h1>帐号登录</h1>
+       <tr>
+        	<td>帐号:</td>
+  	        <td><input type="text" id="li"></td>
+       </tr>
+       <tr>
+  	        <td>密码:</td>
+  	        <td><input type="password" id="li1"></td>
+       </tr>
+       <tr>
+       	<td><input type="submit"  ></td>
+       	<td><input type="reset" name="chongzhi"></td>
+       </tr>
+    </table>
+</form>
+</body>
+</html>

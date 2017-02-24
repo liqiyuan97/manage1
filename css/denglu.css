@@ -1,0 +1,80 @@
+.clearfix:before,
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix{
+	*zoom: 1;
+}
+
+
+body{
+	font: 12px 宋体, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 0;
+}
+
+.logo_div{
+	width: 50%;
+	margin: auto;
+}
+
+.logo{
+	width: 260px;
+	height: 60px;
+	background:url(http://pic.58pic.com/58pic/12/07/72/90t58PICvCj.jpg) no-repeat;
+	background-size: 260px 60px;
+	float: left;
+}
+
+.content{
+	width: 100%;
+	height: 800px;
+	background:url(http://pic.90sjimg.com/back_pic/qk/back_origin_pic/00/04/39/78777067a8eae9bee87dade369214b0c.jpg);
+}
+
+.content .area_1{
+	height: 30%;
+}
+
+
+.content .area{
+	width: 400px;
+	height: 50%;
+	background-color: #999999;
+	margin: auto;
+	position: relative;
+}
+
+.area .rank{
+	width: 100%;
+	height: 100%; 
+}
+
+.content form{
+	background-color: #fff;
+	width: 400px;
+	height: 300px;
+	padding: 30px;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #333333;
+}
+
+.button{
+	width: 300px;
+}
